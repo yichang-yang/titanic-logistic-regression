@@ -116,7 +116,7 @@ class LogisticRegression:
                     print("Epoch %d Step %d: Loss %f, Acc %f" % (e + 1, i + 1, metrics["loss"], metrics["accuracy"]))
 
             metrics = self.evaluate(x_valid, y_valid)
-            metric_graph["loss"].append(metrics["loss"])
+            #metric_graph["loss"].append(metrics["loss"])
             metric_graph["accuracy"].append(metrics["accuracy"])
             learning_rate *= learning_rate_decay
 
