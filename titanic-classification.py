@@ -128,6 +128,7 @@ class LogisticRegression:
         plt.ylabel("ACCURACY")
         plt.plot(metric_graph["accuracy"])
         plt.savefig("accuracy.png")
+        plt.clf()
         plt.show()
 
 
